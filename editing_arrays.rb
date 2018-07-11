@@ -6,8 +6,8 @@ RAINBOW_COLORS = [
 
 def change_rainbow_colors
   RAINBOW_COLORS(0,"red")
-  RAINBOW_COLORS
-  RAINBOW_COLORS
+  RAINBOW_COLORS(1, "light_red")
+  RAINBOW_COLORS(2, "light_yellow")
 # Write a solution that corrects the three colors in rainbow_colors, then returns the corrected array
 end
 
